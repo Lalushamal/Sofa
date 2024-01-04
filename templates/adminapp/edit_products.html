@@ -12,7 +12,7 @@
                 <div class="content-header">
                     <h2 class="content-title">Edit Product</h2>
                     <div>
-                        {% comment %} <button class="btn btn-light rounded font-sm mr-5 text-body hover-up">Save to draft</button> {% endcomment %}
+                        
                         <button type="submit" class="btn btn-md rounded font-sm hover-up">Save</button>
                     </div>
                 </div>
@@ -157,10 +157,7 @@
                         <div class="mb-4">
                             <label class="form-label">Seating capacity</label>
                             <input type="text" placeholder="Type here" value={{product.seating}} class="form-control" id='seating' name='seating'>
-                            {% comment %} <select class="form-select">
-                                <option>Published</option>
-                                <option>Draft</option>
-                            </select> {% endcomment %}
+
                         </div>
                         
                         <hr>
@@ -220,7 +217,5 @@
         </div>  
     </section>
 </form>
-
-
 
 {% endblock content %}
